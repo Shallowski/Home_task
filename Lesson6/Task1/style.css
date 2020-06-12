@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/ProximaNova-Light.eot')
+    format('embedded-opentype'),
+    url('fonts/ProximaNova-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/ProximaNova-Regular.eot')
+    format('embedded-opentype'),
+    url('fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body {
+    margin: 0;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 70px;
+    letter-spacing: -0.36em;
+}
+
+.col {
+    display: inline-block;
+    width: calc(33.3% - 20px);
+    letter-spacing: normal;
+    padding: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+.col:first-child {
+    margin-left: 0;
+}
+
+.col:last-child {
+    margin-right: 0;
+}
+
+.col_title {
+    margin-top: 16px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.col_text {
+    font-weight: 300;
+    color: #9d9d9d;
+    word-break: break-all;
+}
+
+button {
+    background: #1275b9;
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    padding: 0;
+    margin: 0;
+    border:none;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #1275b9;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn1 {
+    background-image: url(img/Tablet.png);
+}
+
+.btn1:hover {
+    background-image: url(img/Tablet_blue.png);
+}
+
+.btn2 {
+    background-image: url(img/Settings.png);
+}
+
+.btn2:hover {
+    background-image: url(img/Settings_blue.png);
+}
+
+.btn3 {
+    background-image: url(img/Dashboard.png);
+}
+
+.btn3:hover {
+    background-image: url(img/Dashboard_blue.png);
+}
