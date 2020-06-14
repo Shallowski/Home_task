@@ -38,6 +38,7 @@ h2 {
     text-transform: uppercase;
     font-size: 21px;
     font-weight: 400;
+    word-break: normal;
     color: black;
     padding: auto 0;
     margin-top: 15px;
