@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'weathericons';
+    src: url('../font/weathericons-regular-webfont.eot');
+    src: url('../font/weathericons-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../font/weathericons-regular-webfont.woff2') format('woff2'), url('../font/weathericons-regular-webfont.woff') format('woff'), url('../font/weathericons-regular-webfont.ttf') format('truetype'), url('../font/weathericons-regular-webfont.svg#weather_iconsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.container  {
+    background: #3399CC;
+    color: #fff;
+    height: 100%;
+    min-width: 500px;
+    border: 15px solid #217CA9;
+    font-family: 'weathericons';
+}
+
+.header, .footer {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.header {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.forecast {
+    margin: 0 auto;
+    list-style: none;
+    width: 70%;
+    min-width: 400px;
+    height: 400px;
+    letter-spacing: -0.36em;
+    padding-left: 0;
+    background: white;
+}
+
+.forecast:hover {
+    opacity: 0.5;
+}
+
+.forecast>li {
+    display: inline-block;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 20px;
+    height: 25%;
+    border: 2px solid #fff;
+    padding-top: 15px;
+}
+
+.forecast>li:hover {
+    opacity: 1;
+}
+
+p {
+    margin-top: 8px;
+    color: #CFCFDF;
+}
+
+i {
+    font-size: 24px;
+}
+
+.forecast__half {
+    width: 50%;
+}
+
+.forecast__quater {
+    width: 25%;
+}
+
+.lisbon {
+    background: #3399CC;
+}
+
+.paris {
+    background: #33CCCC;
+}
+
+.belgrade {
+    background: #996699;
+}
+
+.moscow {
+    background: #C24747;
+}
+
+.tel-aviv {
+    background: #E2674A;
+}
+
+.cair {
+    background: #FFCC66;
+}
+
+.new-york{
+    background: #99CC99;
+}
+
+.new-delhi {
+    background: #669999;
+}
+
+.san-francisco {
+    background: #CC6699;
+}
+
+.tokyo {
+    background: #339966;
+}
+
+.sydney {
+    width: 100%;
+    background: #666699;
+}
+
+.footer {
+    padding: 20px 0 100px 0;
+}
