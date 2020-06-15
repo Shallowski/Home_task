@@ -56,6 +56,7 @@
 }
 
 .forecast>li:hover {
+    background: palegoldenrod;
     opacity: 1;
 }
 
