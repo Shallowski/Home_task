@@ -11,10 +11,14 @@ body {
 }
 
 .container {
-    width: 1140px;
+    width: 1120px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto
+}
+
+img {
+    max-width: 100%;
 }
 
 
@@ -50,6 +54,7 @@ h2 {
 }
 
 .col__date {
+    min-height: 1.5em;
     color: #9a9a9a;
     font-weight: 300;
     font-size: 13px;
