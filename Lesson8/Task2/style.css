@@ -60,3 +60,17 @@ h2 {
     align-self: end;
     margin: 60px 0 30px 30px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Neue Hans Kendrick Regular', 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: #99a5b0;
+    margin: 75px 0 100px 0;
+}
+
+footer > p {
+    margin-left: 10px;
+}
