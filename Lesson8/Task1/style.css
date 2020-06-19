@@ -1,0 +1,71 @@
+@font-face {
+font-family: 'Miso';
+font-style: normal;
+font-weight: normal;
+src: local('Miso'), url('font/miso.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Miso Light';
+font-style: normal;
+font-weight: normal;
+src: local('Miso Light'), url('font/miso-light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Miso Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Miso Bold'), url('font/miso-bold.woff') format('woff');
+}
+
+.container {
+    background: #fdde7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #fff;
+    width: 360px;
+    height: 440px;
+    margin: 30px;
+}
+
+.col__center {
+    height: 500px;
+    margin: 0;
+}
+
+.column__price {
+    color: #02995b;
+    font-family: 'Miso Bold', sans-serif;
+    font-style: normal;
+    font-size: 70px;
+}
+
+.column__title {
+    color: #000;
+    font-family: 'Miso', sans-serif;
+    font-style: normal;
+    font-size: 42px;
+}
+
+.column__description {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    width: 140px;
+    text-align: center; 
+}
+
