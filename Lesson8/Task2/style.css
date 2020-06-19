@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Neue Hans Kendrick Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Neue Hans Kendrick Regular'), url('font/NeueHansKendrick-Regular.woff') format('woff');
+    }
+
+body {
+    background: #e2e7ec;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto
+}
+
+
+.col {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    flex: 0 1 calc(33.3% - 20px);
+    font-family: 'Neue Hans Kendrick Regular', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.col__big {
+    flex-basis: calc(66.6% - 20px);
+    background-image: url(img/car.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    justify-content: flex-end;
+}
+
+.col__big > h2 {
+    width: 70%;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 0 30px;
+}
+
+.col__date {
+    color: #9a9a9a;
+    font-weight: 300;
+    font-size: 13px;
+    margin: 25px 30px;
+}
+
+.col__author {
+    align-self: end;
+    margin: 30px;
+}
