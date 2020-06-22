@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('font/ProximaNova-Regular.eot');
+    src: url('font/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('font/ProximaNova-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT Heavy';
+    src: url('font/FuturaPT-Heavy.eot');
+    src: url('font/FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'), url('font/FuturaPT-Heavy.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}    
+
+@font-face {
+    font-family: 'Georgia Regular';
+    src: url('font/Georgia.eot');
+    src: url('font/Georgia.eot?#iefix') format('embedded-opentype'),
+    url('font/Georgia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Georgia Italic';
+    src: url('font/Georgia-Italic.eot');
+    src: url('font/Georgia-Italic.eot?#iefix') format('embedded-opentype'),
+    url('font/Georgia-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body {
+    font-family: 'Georgia Regular';
+    font-weight: normal;
+    font-size: 27px;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 900px;
+    background: #464f54;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+
+.title__input {
+    position: absolute;
+    right: 0;
+}
+
+.control{
+    position: absolute;
+    right: 0;
+    top: 173px;
+}
+
+.line {
+    position: absolute;
+    left: 140px;
+    bottom: -2px;
+}
+
+.article {
+    width: 1060px;
+    height: 760px;
+    background: #fff;
+    margin: 150px 70px 0 70px;
+    padding: 190px 125px 40px 125px;
+
+}
+
+.article__author {
+    font-family: 'Proxima Nova Regular';
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.25em;
+    color: #b4b4b4;
+}
+
+.article__title {
+    font-family: 'Futura PT Heavy';
+    text-transform: uppercase;
+    font-size: 2.9em;
+    color: #2a2a2a;
+    margin: 0.4em 0 0 0;
+}
+
+.article__title-comment {
+    font-family: 'Georgia Italic';
+    font-size: 1.1em;
+    line-height: 2em;
+    color: #8f8f8f;
+    margin-top: -10px;
+}
+
+.article__main-content {
+    line-height: 1.5em;
+}
+
+span {
+    font-family: 'Georgia Italic';
+}
